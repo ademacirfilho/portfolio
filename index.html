@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ademacir — Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="antialiased">
+
+  <header class="sticky top-0 z-40 backdrop-blur bg-[#FAFAF8]/85 border-b border-[#E4E2DC]">
+    <div class="max-w-4xl mx-auto px-6 flex items-center justify-between h-16">
+      <a href="#topo" class="mono text-sm text-[#1A1A1A] focus-ring rounded">
+        <span class="text-[#3D5A50]">~/</span>ademacir
+      </a>
+      <nav class="hidden sm:flex items-center gap-8 mono text-xs uppercase tracking-widest text-[#6B6B6B]">
+        <a href="#sobre" class="hover:text-[#1A1A1A] transition-colors focus-ring rounded">Sobre</a>
+        <a href="#formacao" class="hover:text-[#1A1A1A] transition-colors focus-ring rounded">Formação</a>
+        <a href="#habilidades" class="hover:text-[#1A1A1A] transition-colors focus-ring rounded">Habilidades</a>
+        <a href="#projetos" class="hover:text-[#1A1A1A] transition-colors focus-ring rounded">Projetos</a>
+        <a href="#contato" class="hover:text-[#1A1A1A] transition-colors focus-ring rounded">Contato</a>
+      </nav>
+      <button id="menuBtn" aria-label="Abrir menu"
+        class="sm:hidden mono text-xs text-[#1A1A1A] focus-ring rounded px-2 py-1 border border-[#E4E2DC]">menu</button>
+    </div>
+    <nav id="mobileMenu"
+      class="hidden sm:hidden border-t border-[#E4E2DC] px-6 py-4 flex flex-col gap-4 mono text-xs uppercase tracking-widest text-[#6B6B6B] bg-[#FAFAF8]">
+      <a href="#sobre" class="focus-ring rounded">Sobre</a>
+      <a href="#formacao" class="focus-ring rounded">Formação</a>
+      <a href="#habilidades" class="focus-ring rounded">Habilidades</a>
+      <a href="#projetos" class="focus-ring rounded">Projetos</a>
+      <a href="#contato" class="focus-ring rounded">Contato</a>
+    </nav>
+  </header>
+
+  <section id="topo" class="max-w-4xl mx-auto px-6 pt-20 pb-16 sm:pt-28 sm:pb-24">
+    <p class="mono text-xs uppercase tracking-widest text-[#3D5A50] mb-4">Disponível para oportunidades</p>
+    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-[1.05] text-[#1A1A1A]">
+      Ademacir<br class="hidden sm:block"> Desenvolvedor Web
+    </h1>
+    <p class="mt-6 max-w-xl text-base sm:text-lg text-[#6B6B6B] leading-relaxed">
+      Estudante de Ciência e Tecnologia na UFRN, com formação técnica em Informática para Internet pelo IFRN.
+      Gosto de transformar ideias simples em interfaces limpas e funcionais.
+    </p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="#projetos"
+        class="mono text-xs uppercase tracking-widest bg-[#1A1A1A] text-[#FAFAF8] px-5 py-3 rounded-sm hover:bg-[#3D5A50] transition-colors focus-ring">Ver
+        projetos</a>
+      <a href="#contato"
+        class="mono text-xs uppercase tracking-widest border border-[#1A1A1A] text-[#1A1A1A] px-5 py-3 rounded-sm hover:border-[#3D5A50] hover:text-[#3D5A50] transition-colors focus-ring">Entrar
+        em contato</a>
+    </div>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="h-px bg-[#E4E2DC]"></div>
+  </div>
+
+  <section id="sobre" class="max-w-4xl mx-auto px-6 py-16 sm:py-20 text-justify">
+    <p class="mono text-xs uppercase tracking-widest text-[#6B6B6B] mb-3">Sobre</p>
+    <p class="text-lg sm:text-xl leading-relaxed text-[#1A1A1A] max-w-2xl mb-6">
+      Sou estudante de Ciência e Tecnologia na UFRN e formado em Informática para Internet pelo IFRN. Minha trajetória é
+      voltada ao desenvolvimento de software, com foco em aplicações web e interesse constante em aprimorar minhas
+      habilidades técnicas.
+    </p>
+
+    <p class="text-lg sm:text-xl leading-relaxed text-[#1A1A1A] max-w-2xl">
+      Tenho experiência com tecnologias como React, JavaScript, HTML, CSS, Tailwind CSS, Python e Django, adquirida
+      principalmente através de projetos acadêmicos e de pesquisa. Gosto de aprender na prática, transformar ideias em
+      soluções e continuar evoluindo como desenvolvedor.
+    </p>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="h-px bg-[#E4E2DC]"></div>
+  </div>
+
+  <section id="formacao" class="max-w-4xl mx-auto px-6 py-16 sm:py-20">
+    <p class="mono text-xs uppercase tracking-widest text-[#6B6B6B] mb-8">Formação</p>
+    <div class="space-y-10">
+      <div class="grid sm:grid-cols-[140px_1fr] gap-2 sm:gap-8">
+        <span class="mono text-xs text-[#6B6B6B]">Em andamento</span>
+        <div>
+          <h3 class="text-lg font-semibold text-[#1A1A1A]">Bacharelado em Ciência e Tecnologia</h3>
+          <p class="text-sm text-[#6B6B6B] mt-1">Universidade Federal do Rio Grande do Norte (UFRN)</p>
+        </div>
+      </div>
+      <div class="grid sm:grid-cols-[140px_1fr] gap-2 sm:gap-8">
+        <span class="mono text-xs text-[#6B6B6B]">Concluído</span>
+        <div>
+          <h3 class="text-lg font-semibold text-[#1A1A1A]">Técnico em Informática para Internet</h3>
+          <p class="text-sm text-[#6B6B6B] mt-1">Instituto Federal do Rio Grande do Norte (IFRN)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="h-px bg-[#E4E2DC]"></div>
+  </div>
+
+  <section id="habilidades" class="max-w-4xl mx-auto px-6 py-16 sm:py-20">
+    <p class="mono text-xs uppercase tracking-widest text-[#6B6B6B] mb-8">Habilidades</p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-6">
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">HTML</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">CSS</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">JavaScript</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">React Js</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">Python</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">Django</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">Tailwind CSS</span>
+      <span class="mono text-sm text-[#1A1A1A] border-b border-[#E4E2DC] pb-2">Git &amp; GitHub</span>
+    </div>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="h-px bg-[#E4E2DC]"></div>
+  </div>
+
+  <section id="projetos" class="max-w-4xl mx-auto px-6 py-16 sm:py-20">
+    <p class="mono text-xs uppercase tracking-widest text-[#6B6B6B] mb-8">Projetos</p>
+    <div class="space-y-6">
+      <a href="https://github.com/ademacirfilho/ffa-finance-V2" target="_blank"
+        class="group block border border-[#E4E2DC] rounded-sm p-6 hover:border-[#3D5A50] transition-colors focus-ring">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold text-[#1A1A1A] group-hover:text-[#3D5A50] transition-colors">FFA .finance
+            </h3>
+            <p class="text-sm text-[#6B6B6B] mt-2 leading-relaxed">Sistema de gerenciamento financeiro para microempresas, desenvolvido no IFRN. A aplicação permite controlar receitas, despesas e outras informações financeiras de forma simples e organizada.
+
+            <br>Tecnologias: Django, Python, HTML, CSS, JavaScript, Tailwind CSS e MySQL.
+</p>
+          </div>
+          <span class="mono text-xs text-[#6B6B6B] whitespace-nowrap mt-1">Ver →</span>
+        </div>
+      </a>
+      <a href="https://github.com/ademacirfilho/pos-2025-projeto01" target="_blank"
+        class="group block border border-[#E4E2DC] rounded-sm p-6 hover:border-[#3D5A50] transition-colors focus-ring">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-lg font-semibold text-[#1A1A1A] group-hover:text-[#3D5A50] transition-colors">Boletim Acadêmico — Integração com SUAP</h3>
+            <p class="text-sm text-[#6B6B6B] mt-2 leading-relaxed">Sistema de boletim acadêmico desenvolvido no IFRN, integrado à API do SUAP com autenticação OAuth. A aplicação permite consultar e exibir informações acadêmicas de forma simples e organizada.
+
+            <br>Tecnologias: Flask, Python, SUAP API, Authlib e Tailwind CSS.</p>
+          </div>
+          <span class="mono text-xs text-[#6B6B6B] whitespace-nowrap mt-1">Ver →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="h-px bg-[#E4E2DC]"></div>
+  </div>
+
+  <section id="contato" class="max-w-4xl mx-auto px-6 py-16 sm:py-24">
+    <p class="mono text-xs uppercase tracking-widest text-[#6B6B6B] mb-4">Contato</p>
+    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-[#1A1A1A] max-w-lg">Vamos conversar sobre uma
+      oportunidade?</h2>
+    <div class="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-10 mono text-sm">
+      <a href="mailto:seuemail@exemplo.com"
+        class="flex items-center gap-2 text-[#1A1A1A] hover:text-[#3D5A50] transition-colors focus-ring rounded">
+        <span class="text-[#3D5A50]"><i class="bi bi-envelope"></i> email</span> ademacirfilho@gmail.com
+      </a>
+      <a href="https://github.com/ademacirfilho" target="_blank" rel="noopener"
+        class="flex items-center gap-2 text-[#1A1A1A] hover:text-[#3D5A50] transition-colors focus-ring rounded">
+        <span class="text-[#3D5A50]"><i class="bi bi-github"></i> github</span> /ademacirfilho
+      </a>
+      <a href="https://linkedin.com/in/ademacir-filho-796950386" target="_blank" rel="noopener"
+        class="flex items-center gap-2 text-[#1A1A1A] hover:text-[#3D5A50] transition-colors focus-ring rounded">
+        <span class="text-[#3D5A50]"><i class="bi bi-linkedin"></i> linkedin</span> /ademacirfilho
+      </a>
+    </div>
+  </section>
+
+  <footer
+    class="max-w-4xl mx-auto px-6 py-10 border-t border-[#E4E2DC] flex flex-col sm:flex-row items-center justify-between gap-2">
+    <p class="mono text-xs text-[#6B6B6B]">© 2026 Ademacir. Todos os direitos reservados.</p>
+    <p class="mono text-xs text-[#6B6B6B]">Feito com Tailwind CSS</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
